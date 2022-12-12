@@ -3,9 +3,17 @@
 .navbar {
   font-weight: 800;
   height: 10vh;
-  background-image: var(--gradient-13);
-  opacity: 90%;
+  opacity: 95%;
+  background-color: violet;
   color: white;
+  border-radius: 3px;
+}
+
+#basic-navbar-nav{ 
+ background-color: violet;
+ opacity: 95%;
+ border-radius: 3px;
+
 }
 
 .contact {
@@ -15,4 +23,9 @@
 
 .contact a {
   margin: 2px;
+}
+
+
+.projects {
+  color: black;
 }
