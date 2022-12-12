@@ -1,16 +1,20 @@
+import "./Home.css";
+
 export default function Home() {
   return (
     <>
       <div className="img-container">
-        <img
+        {/* <img
           className="home-bg-img"
-          src="https://cdn.dribbble.com/users/846370/screenshots/16009081/media/00b25e745f40864f8d9c727ed5006361.jpg"
+          src="https://images.pexels.com/photos/3824706/pexels-photo-3824706.jpeg"
           alt="splat"
-        ></img>
+        ></img> */}
       </div>
       <div className="home">
-        <h1 className="hi">Hi, I'm</h1>
-        <h1 className="name"> ALEX MILLER.</h1>
+        <div className="slant">
+          <h1 className="hi">Hi, I'm</h1>
+          <h1 className="name"> ALEX MILLER.</h1>
+        </div>
         <p className="blurb">I used to make beer and now I make websites.</p>
       </div>
     </>

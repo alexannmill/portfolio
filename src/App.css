@@ -1,48 +1,18 @@
+@import "open-props/style";
 
 .navbar {
-  
-}
-
-
-.home{
-  display: flex;
-  margin-top: 50px;
-  position: absolute;
-  justify-content: center;
-  flex-direction: column;
-  padding: 2rem;
- 
-}
-
-.hi {
-  margin-top: 10vh;
-  font-size: 8vw;
-}
-.name {
-  display: inline;
-  font-size: 11vw;
-  margin-left: 10vw;
-}
-
-
-.home-bg-img {
-  position: absolute;
-  width: 80%;
-  rotate: 90;
-}
-
-.img-container {
-  display: flex;
-  position: absolute;
-  background-color: aqua;
-  margin-top: 30%;
-  width: 100vw;
-  margin-bottom: 10%;
-  box-shadow: 0px, 5px, 5px, black;
-  padding: 2px;
+  font-weight: 800;
+  height: 10vh;
+  background-image: var(--gradient-13);
+  opacity: 90%;
+  color: white;
 }
 
 .contact {
   display: flex;
   flex-direction: column;
+}
+
+.contact a {
+  margin: 2px;
 }

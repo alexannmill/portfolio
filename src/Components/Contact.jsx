@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <div className="contact">
-      <h5>@ : alexannmill@gmail.com</h5>
+      <h6>@: alexannmill@gmail.com</h6>
       <a href="https://www.linkedin.com/in/alexannmill/" target="blank">
         <img
           align="center"

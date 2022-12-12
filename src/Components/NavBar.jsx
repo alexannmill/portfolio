@@ -4,9 +4,9 @@ import Navbar from "react-bootstrap/Navbar";
 
 export default function NavBar() {
   return (
-    <Navbar className="navbar" bg="dark" variant="dark" fixed="top" expand="lg">
+    <Navbar className="navbar" fixed="top" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">Alex Miller</Navbar.Brand>
+        <Navbar.Brand href="#home">@ Mi||er</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

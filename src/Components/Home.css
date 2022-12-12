@@ -1,0 +1,50 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  position: relative;
+  display: inline-block;
+  padding: 1em 2em 1em 1em;
+  overflow: hidden;
+  color: #fff;
+  
+}
+
+.hi {
+  margin: 2em .7em .1em .1em;
+  padding: .1em .1em .1em .1em;
+  font-size: 8vw;
+  color: black;
+}
+
+.name {
+  font-size: 10vw;
+  margin: .1em .1em 1em 1.5em;
+  color: black;
+}
+
+.slant {
+  box-shadow: 2px 5px 5px pink;
+  background-color: rgba(62, 255, 255, 0.825);
+  -webkit-transform-origin: 100% 30;
+  -ms-transform-origin: 80% 30;
+  transform-origin: 80% 30;
+  -webkit-transform: skew(-10deg);
+  -ms-transform: skew(-10deg);
+  transform: skew(-10deg);
+  z-index: -1;
+}
+
+.home-bg-img {
+  width: 100%;
+  transform: rotate(90deg);
+  position: absolute;
+  z-index: -1;
+}
+
+.blurb {
+  padding: 1em;
+  background-color: violet;
+  -webkit-mask-image: -webkit-gradient(linear, left top, 
+  left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
