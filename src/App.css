@@ -28,4 +28,9 @@
 
 .projects {
   color: black;
+  text-align: -webkit-center;
+}
+
+.card {
+ border-radius: 20px;
 }
