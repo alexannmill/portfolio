@@ -12,9 +12,9 @@ export default function Projects() {
         <Card.Body>
           <Card.Title>Safeguardian</Card.Title>
           <Card.Text>
-            Work-in-progress: A map application for unhoused people to find
-            resources. Hoping one day mall-screen kiosk are up around the city
-            giving information to those in need.
+            <strong>Work-in-progress:</strong> A map application for unhoused
+            people to find resources. Hoping one day mall-screen kiosk are up
+            around the city giving information to those in need.
           </Card.Text>
           <Button variant="dark">GitHub</Button>
         </Card.Body>
