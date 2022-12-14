@@ -1,56 +1,60 @@
 .home{
   flex-direction: column;
   position: relative;
-  padding: 1em 1em 1em 1em;
   overflow: hidden;
   color: #fff;
   margin: 1em;
 }
 
 .hi {
-  margin: 3em .7em .1em .1em;
-  padding: .1em .1em .1em .1em;
-  font-size: 8vw;
-  color: black;
+  display: inline-flex ;
+  margin: 1em 1em .1em ;
+  padding: .1em .1em .1em ;
+  font-size: 6vw;
+  font-weight: 700;
+  color: #fcfdfd;
 }
 
 .name {
-  font-size: 9vw;
-  margin: .1em .1em 1em 1.5em;
-  color: black;
+  font-size: 6vw;
+  font-weight: 700;
+  margin: .1em 0.1em 0.5em 3em;
+  color: #309db5;
+  display: inline-flex ;
+
 }
 
 .slant {
-  box-shadow: 5px 7px 7px pink;
-  background-color: rgba(62, 255, 255, 0.825);
-
-  transform: skew(-10deg);
+  margin-top: 7em;
+  box-shadow: 5px 7px 7px #dd4fcb;
+  background-color: #c3d214;
+  border-radius: var(--radius-blob-1);
+  height: 50vh;
   z-index: -1;
-  border-radius: 2px;
 }
 
 .home-bg-img {
-  width: 100%;
-  transform: rotate(90deg);
+  display: flex;
+  width: 35%;
+  border-radius: var(--radius-blob-5);
+}
+
+.img-container {
+  margin-top: 7em;
+  margin-right: 1em;
+  display: flex;
   position: absolute;
-  z-index: -1;
+  justify-content: flex-end;
+  z-index: 1;
 }
 
 .blurb {
   padding: 1em;
   text-align: center;
-  color: rgb(215, 160, 252);
-  text-shadow:
-    0 0 7px rgb(165, 30, 255),
-    0 0 10px rgb(165, 30, 255),
-    0 0 21px rgb(165, 30, 255),
-    0 0 42px rgb(192, 79, 253),
-    0 0 82px rgb(170, 86, 255),
-    0 0 92px rgb(209, 143, 250),
-    0 0 102px rgb(209, 143, 250),
-    0 0 151px rgb(207, 180, 252);
+  color: #309db5;
   border-radius: 15px;
-  background-color: rgba(1, 1, 1, 0.329);
+  margin-top: 5em;
+  z-index: 20;
   /* -webkit-mask-image: -webkit-gradient(linear, left top, 
   left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); */
 } 

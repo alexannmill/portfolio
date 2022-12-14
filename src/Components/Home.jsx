@@ -1,14 +1,11 @@
 import "./Home.css";
+import photo from "./imgs/IMG_0528.JPG";
 
 export default function Home() {
   return (
     <>
       <div className="img-container">
-        {/* <img
-          className="home-bg-img"
-          src="https://images.pexels.com/photos/3824706/pexels-photo-3824706.jpeg"
-          alt="splat"
-        ></img> */}
+        <img className="home-bg-img" src={photo} alt="me"></img>
       </div>
       <div className="home">
         <div className="slant">
