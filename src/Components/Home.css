@@ -64,4 +64,16 @@
     height: 60vh;
     width: 120vw;
   }
+   .home-bg-img {
+    width: 40vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .home-bg-img {
+    width: 20vw;
+  }
+  .img-container {
+    margin-top: 7rem;
+  }
 }
