@@ -67,9 +67,11 @@ export default function ContactForm() {
             // required
           />
         </Form.Group>
-        <Button variant="primary" type="submit">
-          Send Message
-        </Button>
+        <div className="submitbtn">
+          <Button variant="primary" type="submit">
+            Send Message
+          </Button>
+        </div>
       </Form>
     </div>
   );

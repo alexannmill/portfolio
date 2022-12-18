@@ -1,4 +1,4 @@
-import "./Home.css";
+import "./Styles/Home.css";
 import photo from "./imgs/IMG_0528.JPG";
 
 export default function Home() {

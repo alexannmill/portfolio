@@ -1,0 +1,21 @@
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  align-items: center;
+}
+
+.contact a {
+  margin: 2px;
+}
+
+.form {
+  width: 30rem;
+  margin: 2rem;
+}
+
+.thankyou {
+  text-align: center;
+  margin: 2rem;
+}
