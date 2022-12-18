@@ -1,5 +1,3 @@
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
 import HungryDev from "./Projects/HungyDev";
 import Safeguardian from "./Projects/Safeguardian";
@@ -8,8 +6,8 @@ import WhatsBrewin from "./Projects/WhatsBrewin";
 export default function Projects() {
   return (
     <>
-      <a id="projects">-</a>
       <div className="projects">
+        <a id="projects">-</a>
         <Carousel>
           <Carousel.Item>
             <Safeguardian />

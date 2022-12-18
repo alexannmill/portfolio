@@ -1,14 +1,16 @@
+import ContactForm from "./ContactForm";
+
 export default function Contact() {
   return (
     <>
       <a id="contact">-</a>
       <div className="contact">
-        <h6>@: alexannmill@gmail.com</h6>
+        <ContactForm />
         <a href="https://www.linkedin.com/in/alexannmill/" target="blank">
           <img
             align="center"
             src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-            alt="Alex Miler"
+            alt="Alex Miller GitHub"
             height="30"
             width="40"
           />
@@ -17,7 +19,7 @@ export default function Contact() {
           <img
             align="center"
             src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
-            alt="gunjan1909"
+            alt="Alex Miller LinkedIn"
             height="30"
             width="40"
           />

@@ -16,15 +16,15 @@
   font-size: 5vw;
   font-weight: 700;
   margin: .1rem 4rem 0.5rem 30vw;
-  color: #309db5;
+  color: var(--main-blue);
   display: inline-flex ;
   z-index: 10;
 }
 
 .slant {
   margin-top: 7rem;
-  box-shadow: 5px 7px 7px #dd4fcb;
-  background-color: #c3d214;
+  box-shadow: 5px 7px 7px var(--main-pink);
+  background-color: var(--main-yellow);
   border-radius: var(--radius-blob-2);
   height: 40vw;
   width: 95vw;
@@ -50,7 +50,7 @@
   font-size: larger;
   white-space: pre-line;
   text-align: center;
-  color: #309db5;
+  color: var(--main-blue);
   border-radius: 15px;
   position: absolute;
   margin-left: 30vw;
