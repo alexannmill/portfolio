@@ -58,6 +58,7 @@ export default function ContactForm() {
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formMessage">
+          <Form.Label>Message</Form.Label>
           <Form.Control
             as="textarea"
             placeholder="Enter Your Message"

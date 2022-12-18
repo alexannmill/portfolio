@@ -36,10 +36,12 @@
 
 .form {
   width: 30rem;
+  margin: 2rem;
 }
 
 .thankyou {
   text-align: center;
+  margin: 2rem;
 }
 
 .projects {

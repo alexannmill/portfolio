@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <Navbar className="navbar" fixed="top" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">@ Mi||er</Navbar.Brand>
+        <Navbar.Brand href="#home">@|ex Mi||er</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
