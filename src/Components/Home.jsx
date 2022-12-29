@@ -12,7 +12,7 @@ export default function Home() {
         <div className="slant">
           <h1 className="hi">Hi, my name is </h1>
           <h1 className="name"> Alex Miller.</h1>
-          <p className="blurb">Ex-Brewer turned Software Developer. </p>
+          <p className="blurb">Brewer turned Software Developer. </p>
         </div>
       </div>
     </>
