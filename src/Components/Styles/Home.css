@@ -16,7 +16,6 @@
 .name {
   font-size: 7vw;
   font-weight: 700;
- 
   margin: .1rem 4rem 0.5rem 30vw;
   color: var(--main-blue);
   display: inline-flex ;
@@ -50,22 +49,19 @@
 
 .blurb {
   padding: 1rem;
-  font-size: larger;
+  font-size: x-large;
   white-space: pre-line;
   text-align: center;
   color: var(--main-blue);
   border-radius: 15px;
   position: absolute;
   margin-left: 35vw;
-  margin-top: 1rem;
-  /* -webkit-mask-image: -webkit-gradient(linear, left top, 
-  left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); */
 } 
 
 @media screen and (max-width: 650px) {
   .slant {
     height: 60vh;
-    width: 120vw;
+    width: 95vw;
   }
    .home-bg-img {
     width: 40vw;

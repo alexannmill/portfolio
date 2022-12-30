@@ -1,12 +1,10 @@
 import { Card, Button } from "react-bootstrap";
+import whatsbrewinIMG from "../imgs/whatsbrewing.png";
 
 export default function WhatsBrewin() {
   return (
     <Card className="whats-brewing" style={{ width: "60vw" }}>
-      <Card.Img
-        variant="top"
-        src="https://media.istockphoto.com/id/1225201968/photo/hand-in-a-pop-art-collage-style-in-neon-bold-colors-modern-psychedelic-creative-element-with.jpg?b=1&s=612x612&w=0&k=20&c=HkQC8zYzUFoIc-k0YHFTja2PtOTukpJWsqW8e6tRo-c="
-      />
+      <Card.Img variant="top" src={whatsbrewinIMG} alt="Whats Brewin IMG" />
       <Card.Body>
         <Card.Title>What's Brewin'</Card.Title>
         <Card.Text>

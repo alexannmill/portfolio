@@ -7,8 +7,8 @@ import "./Styles/Projects.css";
 export default function Projects() {
   return (
     <>
-      <a id="projects">-</a>
       <div className="projects">
+        <a id="projects">-</a>
         <Carousel>
           <Carousel.Item>
             <Safeguardian />
