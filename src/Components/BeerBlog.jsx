@@ -3,6 +3,7 @@ import "./Styles/Projects.css";
 export default function BeerBlog() {
   return (
     <div className="beerblog">
+      {/* //add anchor for nav */}
       <h1 className="beerblogtitle">
         <strong> BEER BLOG </strong>
       </h1>
@@ -17,10 +18,10 @@ export default function BeerBlog() {
       </p>
       <p>
         {" "}
-        Here we I will be sharing homebrew recipes, most of which will be ones
-        that were on tap at Herald Street. I will also cover some some key
-        concepts for beginners along with tips and how-tos for growing up our
-        own cultures.
+        Here I will be sharing homebrew recipes, most of which will be ones that
+        were on tap at Herald Street. I will also cover some some key concepts
+        for beginners along with tips and how-tos for growing up our own
+        cultures.
       </p>
     </div>
   );
