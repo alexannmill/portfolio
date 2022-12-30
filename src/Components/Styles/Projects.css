@@ -10,3 +10,16 @@
  border-radius: 20px;
 }
 
+.beerblog {
+  text-align: center;
+  font-size: x-large;
+  padding: 2rem;
+  border: 2px solid var(--main-pink);
+  border-radius: var(--radius-blob-1);
+  margin: 2rem;
+}
+
+.beerblogtitle {
+  font-size: 4rem;
+  color: var(--main-yellow);
+}
