@@ -15,7 +15,11 @@ export default function NavBar() {
             <Nav.Link href="#home">// About</Nav.Link>
             <Nav.Link href="#projects">// Projects</Nav.Link>
             <Nav.Link href="#contact">// Contact</Nav.Link>
-            <Nav.Link href="#blog"> // BeerBlog</Nav.Link>
+            <Nav.Link href="#blog">// BeerBlog</Nav.Link>
+            <Nav.Link href="https://resume.creddle.io/resume/idi71kas4cy">
+              {" "}
+              // Resume
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

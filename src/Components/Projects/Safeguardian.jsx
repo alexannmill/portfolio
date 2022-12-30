@@ -1,8 +1,8 @@
-import { Card, Button } from "react-bootstrap";
+import { Carousel, Card, Button } from "react-bootstrap";
 
 export default function Safeguardian() {
   return (
-    <Card className="safeguardian" style={{ width: "25rem" }}>
+    <Card className="safeguardian" style={{ width: "60vw" }}>
       <Card.Img
         variant="top"
         src="https://media.istockphoto.com/id/1225201968/photo/hand-in-a-pop-art-collage-style-in-neon-bold-colors-modern-psychedelic-creative-element-with.jpg?b=1&s=612x612&w=0&k=20&c=HkQC8zYzUFoIc-k0YHFTja2PtOTukpJWsqW8e6tRo-c="
