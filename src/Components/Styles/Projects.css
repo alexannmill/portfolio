@@ -10,6 +10,11 @@
  border-radius: 20px;
 }
 
+.socials {
+  margin:2rem;
+  text-align: center;
+}
+
 .beerblog {
   text-align: center;
   font-size: x-large;

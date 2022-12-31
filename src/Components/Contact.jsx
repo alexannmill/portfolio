@@ -9,6 +9,7 @@ export default function Contact() {
       <div className="contact">
         <ContactForm />
         <div className="socials">
+          <h4>OR CONNECT WITH ME ON </h4>
           <a href="https://www.linkedin.com/in/alexannmill/" target="blank">
             <img
               align="center"
