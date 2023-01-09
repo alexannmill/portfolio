@@ -6,7 +6,7 @@
 
 .hi {
   display: inline-flex ;
-  margin: 1rem 9rem .1rem ;
+  margin: 1vw 1vw 1vw 10vw ;
   font-size: 7vw;
   width: 60vw;
   font-weight: 700;
@@ -16,7 +16,7 @@
 .name {
   font-size: 7vw;
   font-weight: 700;
-  margin: .1rem 4rem 0.5rem 30vw;
+  margin: 0rem 4rem 0.5rem 25vw;
   color: var(--main-blue);
   display: inline-flex ;
   z-index: 10;
@@ -40,7 +40,7 @@
 }
 
 .img-container {
-  margin-top: 4rem;
+  margin-top: 10vw;
   position: absolute;
   z-index: 1;
   border-radius: 15%;
@@ -66,13 +66,25 @@
    .home-bg-img {
     width: 40vw;
   }
+  .blurb {
+    font-size: medium;
+    margin-left: 25vw;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
   .home-bg-img {
-    width: 20vw;
+    width: 25vw;
   }
   .img-container {
-    margin-top: 7rem;
+    margin-top: 8vw;
+  }
+  .name {
+    margin: .1rem 4rem 0.5rem 25vw;
+  }
+  .blurb {
+    font-size: xx-large;
+    margin-left: 25vw;
   }
 }
