@@ -1,5 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import HungryDev from "./Projects/HungyDev";
+import Interviewer from "./Projects/Interviewer";
+import Jungle from "./Projects/Jungle";
 import Safeguardian from "./Projects/Safeguardian";
 import WhatsBrewin from "./Projects/WhatsBrewin";
 import "./Styles/Projects.css";
@@ -18,13 +20,12 @@ export default function Projects() {
           </Carousel.Item>
           <Carousel.Item>
             <HungryDev />
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="holder.js/800x400?text=Second slide&bg=282c34"
-                alt="Second slide"
-              />
-            </Carousel.Item>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Interviewer />
+          </Carousel.Item>
+          <Carousel.Item>
+            <Jungle />
           </Carousel.Item>
         </Carousel>
       </div>
