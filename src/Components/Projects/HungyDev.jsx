@@ -5,7 +5,7 @@ import hungrydevIMG from "../imgs/hungrydev.png";
 export default function HungryDev() {
   return (
     <Card className="hungry-dev" style={{ width: "60vw" }}>
-      <Card.Img variant="top" src={hungrydevIMG} />
+      <Card.Img variant="top" src={hungrydevIMG} alt="Hungry Dev IMG" />
       <Card.Body>
         <Card.Title>The Hungry Dev 🐍 </Card.Title>
         <Card.Text>

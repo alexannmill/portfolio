@@ -1,12 +1,12 @@
-import { Carousel, Card, Button } from "react-bootstrap";
-import image from "../imgs/safeguardian.png";
+import { Card, Button } from "react-bootstrap";
+import SGimage from "../imgs/safeguardian.png";
 
 export default function Safeguardian() {
   return (
     <Card className="safeguardian" style={{ width: "60vw" }}>
-      <Card.Img variant="top" src={image} alt="Safeguardian Image" />
+      <Card.Img variant="top" src={SGimage} alt="Safeguardian Image" />
       <Card.Body>
-        <Card.Title>Safeguardian</Card.Title>
+        <Card.Title>Safeguardian 📍</Card.Title>
         <Card.Text>
           <strong>Work-in-progress:</strong> A map application for unhoused
           people to find resources. Hoping one day mall-screen kiosk are up

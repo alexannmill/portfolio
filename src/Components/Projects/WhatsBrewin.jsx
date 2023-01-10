@@ -6,7 +6,7 @@ export default function WhatsBrewin() {
     <Card className="whats-brewing" style={{ width: "60vw" }}>
       <Card.Img variant="top" src={whatsbrewinIMG} alt="Whats Brewin IMG" />
       <Card.Body>
-        <Card.Title>What's Brewin'</Card.Title>
+        <Card.Title>What's Brewin' 🍺</Card.Title>
         <Card.Text>
           What's Brewin' a centralized platform to discover new breweries. We
           love beer and travel and wanted to give back to the breweries in all
