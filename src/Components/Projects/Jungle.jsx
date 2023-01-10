@@ -6,7 +6,7 @@ export default function Jungle() {
     <Card className="jungle" style={{ width: "60vw" }}>
       <Card.Img variant="top" src={jungleIMG} alt="Jungle IMG" />
       <Card.Body>
-        <Card.Title>Jungle 🌱 </Card.Title>
+        <Card.Title className="project-title">Jungle 🌱 </Card.Title>
         <Card.Text>
           <br />A mini e-commerce application built with Ruby on Rails with
           Active Record.

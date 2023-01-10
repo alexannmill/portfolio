@@ -38,8 +38,9 @@ export default function ContactForm() {
         target="_blank"
       >
         <Form.Group className="mb-3" controlId="formName">
-          <Form.Label>Name</Form.Label>
+          <Form.Label className="project-title">Name</Form.Label>
           <Form.Control
+            className="project-title"
             type="name"
             name="name"
             placeholder="Enter Your Name"
@@ -48,8 +49,9 @@ export default function ContactForm() {
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formEmail">
-          <Form.Label>Email</Form.Label>
+          <Form.Label className="project-title">Email</Form.Label>
           <Form.Control
+            className="project-title"
             type="email"
             name="email"
             placeholder="Enter Your Email"
@@ -58,8 +60,9 @@ export default function ContactForm() {
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formMessage">
-          <Form.Label>Message</Form.Label>
+          <Form.Label className="project-title">Message</Form.Label>
           <Form.Control
+            className="project-title"
             as="textarea"
             placeholder="Enter Your Message"
             rows={3}
@@ -68,7 +71,7 @@ export default function ContactForm() {
           />
         </Form.Group>
         <div className="submitbtn">
-          <Button variant="primary" type="submit">
+          <Button className="project-title" variant="primary" type="submit">
             Send Message
           </Button>
         </div>

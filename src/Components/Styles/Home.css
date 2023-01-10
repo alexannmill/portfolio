@@ -7,14 +7,14 @@
 .hi {
   display: inline-flex ;
   margin: 1vw 1vw 1vw 10vw ;
-  font-size: 7vw;
+  font-size: clamp(2rem, 7vw, 30rem);
   width: 60vw;
   font-weight: 700;
   color: #fcfdfd;
 }
 
 .name {
-  font-size: 7vw;
+  font-size: clamp(2rem, 7vw, 30rem);
   font-weight: 700;
   margin: 0rem 4rem 0.5rem 25vw;
   color: var(--main-blue);
@@ -44,34 +44,45 @@
   position: absolute;
   z-index: 1;
   border-radius: 15%;
- 
 }
 
 .blurb {
-  padding: 1rem;
-  font-size: x-large;
+  padding: 0vw 2vw 2vw 2vw;
+  font-size: clamp(1.4rem, 2vw, 20rem); 
   white-space: pre-line;
   text-align: center;
   color: var(--main-blue);
   border-radius: 15px;
   position: absolute;
-  margin-left: 35vw;
+  margin-left: 32vw;
+  margin-right: 5vw;
 } 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 940px) {
   .slant {
-    height: 60vh;
+    height: 40vh;
     width: 95vw;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .slant {
+    height: 65vh;
+    width: 95vw;
+  }
+  .img-container {
+    margin-top: 25vw;
   }
    .home-bg-img {
     width: 40vw;
   }
   .blurb {
-    font-size: medium;
-    margin-left: 25vw;
+    margin-left: 35vw;
   }
 
 }
+
+
 
 @media screen and (min-width: 1200px) {
   .home-bg-img {
@@ -84,7 +95,6 @@
     margin: .1rem 4rem 0.5rem 25vw;
   }
   .blurb {
-    font-size: xx-large;
     margin-left: 25vw;
   }
 }

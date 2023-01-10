@@ -4,6 +4,7 @@
   flex-direction: column;
   margin-top: 3rem;
   align-items: center;
+  font-size: clamp(1rem, 2.5vw, 2rem); 
 }
 
 .contact a {
@@ -11,7 +12,7 @@
 }
 
 .form {
-  width: 30rem;
+  width: clamp(20rem, 40vw, 100rem);
   margin: 2rem;
 }
 

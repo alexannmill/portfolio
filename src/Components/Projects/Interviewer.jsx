@@ -6,7 +6,7 @@ export default function Interviewer() {
     <Card className="interviewer" style={{ width: "60vw" }}>
       <Card.Img variant="top" src={Interviewerimage} alt="interviewer Image" />
       <Card.Body>
-        <Card.Title>Interviewer 📆</Card.Title>
+        <Card.Title className="project-title">Interviewer 📆</Card.Title>
         <Card.Text>
           Front-end focused app for scheduling interviews build with React.js.
           Testing with Storybook and Jest

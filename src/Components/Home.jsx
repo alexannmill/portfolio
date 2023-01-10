@@ -12,7 +12,11 @@ export default function Home() {
         <div className="slant">
           <h1 className="hi">Hi, my name is </h1>
           <h1 className="name"> Alex Miller.</h1>
-          <p className="blurb">Brewer turned Software Developer. </p>
+          <p className="blurb">
+            Brewer turned Software Developer. I enjoy creating applications that
+            have a seamless user experience; maintaining continuity with themes,
+            responses, and expectations.{" "}
+          </p>
         </div>
       </div>
     </>
