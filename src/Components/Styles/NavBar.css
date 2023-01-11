@@ -1,11 +1,16 @@
 .navbar {
   font-weight: 800;
+  font-size: clamp(2rem, 1vw, 7rem);
   width: 100vw;
   height: 10vh;
   opacity: 95%;
   background-color: var(--main-pink);
   color: white;
   border-radius: 2px;
+}
+
+.logo {
+  font-size: clamp(2rem, 1vw, 7rem);
 }
 
 #basic-navbar-nav{ 

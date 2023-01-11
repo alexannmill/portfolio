@@ -4,7 +4,6 @@ import photo from "./imgs/IMG_0528.JPG";
 export default function Home() {
   return (
     <>
-      <a id="home">-</a>
       <div className="home">
         <div className="img-container">
           <img className="home-bg-img" src={photo} alt="me"></img>

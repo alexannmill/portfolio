@@ -3,6 +3,7 @@ import "./Styles/Projects.css";
 export default function BeerBlog() {
   return (
     <div className="beerblog">
+
       {/* //add anchor for nav */}
       <h1 className="beerblogtitle">
         <strong> BEER BLOG </strong>

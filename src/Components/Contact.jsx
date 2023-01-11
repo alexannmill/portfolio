@@ -5,7 +5,6 @@ import "./Styles/Contact.css";
 export default function Contact() {
   return (
     <>
-      <a id="contact">-</a>
       <div className="contact">
         <ContactForm />
         <div className="socials">
@@ -33,3 +32,4 @@ export default function Contact() {
     </>
   );
 }
+
