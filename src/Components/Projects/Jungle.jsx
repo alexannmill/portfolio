@@ -15,8 +15,17 @@ export default function Jungle() {
           href="https://github.com/alexannmill/jungle"
           variant="dark"
           target="_blank"
+          className="github-btn"
         >
-          GitHub
+          <a href="https://github.com/alexannmill" target="blank">
+            <img
+              align="center"
+              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
+              alt="Alex Miller Github"
+              height="30"
+              width="40"
+            />
+          </a>
         </Button>
       </Card.Body>
     </Card>

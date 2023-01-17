@@ -11,13 +11,21 @@ export default function Interviewer() {
           Front-end focused app for scheduling interviews build with React.js.
           Testing with Storybook and Jest
         </Card.Text>
-        <Button
+        <a
           href="https://github.com/alexannmill/interviewer"
           variant="dark"
           target="_blank"
         >
-          GitHub
-        </Button>
+          <a href="https://github.com/alexannmill" target="blank">
+            <img
+              align="center"
+              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
+              alt="Alex Miller Github"
+              height="30"
+              width="40"
+            />
+          </a>
+        </a>
       </Card.Body>
     </Card>
   );

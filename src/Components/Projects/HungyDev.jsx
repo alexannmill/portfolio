@@ -18,8 +18,15 @@ export default function HungryDev() {
           href="https://github.com/alexannmill/the.very.hungry.dev"
           variant="dark"
           target="_blank"
+          className="github-btn"
         >
-          GitHub
+          <img
+            align="center"
+            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
+            alt="Alex Miller Github"
+            height="30"
+            width="40"
+          />
         </Button>
       </Card.Body>
     </Card>
