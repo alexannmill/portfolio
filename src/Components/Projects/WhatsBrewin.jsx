@@ -22,7 +22,6 @@ export default function WhatsBrewin() {
           href="https://github.com/alexannmill/whats.brewin"
           variant="dark"
           target="_blank"
-          className="github-btn"
         >
           <img
             align="center"
