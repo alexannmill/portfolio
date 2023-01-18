@@ -71,7 +71,7 @@ export default function ContactForm() {
           />
         </Form.Group>
         <div className="submitbtn">
-          <Button className="project-title" variant="primary" type="submit">
+          <Button className="contact-btn" variant="primary" type="submit">
             Send Message
           </Button>
         </div>

@@ -11,7 +11,7 @@ export default function Interviewer() {
           Front-end focused app for scheduling interviews build with React.js.
           Testing with Storybook and Jest
         </Card.Text>
-        <a
+        <Button
           href="https://github.com/alexannmill/interviewer"
           variant="dark"
           target="_blank"
@@ -25,7 +25,7 @@ export default function Interviewer() {
               width="40"
             />
           </a>
-        </a>
+        </Button>
       </Card.Body>
     </Card>
   );

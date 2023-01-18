@@ -15,10 +15,8 @@
   font-size: clamp(1rem, 2.5vw, 2rem); 
 }
 
-.socials {
-  margin:2rem;
-  text-align: center;
-}
+
+/* Beer Blog */
 
 .beerblog {
   text-align: center;

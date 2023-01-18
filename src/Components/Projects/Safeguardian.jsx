@@ -14,7 +14,6 @@ export default function Safeguardian() {
         </Card.Text>
         <Button
           href="https://github.com/alexannmill/safeguardian"
-          variant="dark"
           target="_blank"
           className="github-btn"
         >
