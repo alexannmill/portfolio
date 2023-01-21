@@ -1,0 +1,33 @@
+
+.skills {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+
+.skill-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.skill{
+  border: var(--main-pink) 2px solid;
+  width: 15rem;
+  margin: 1rem;
+  animation: fade-in 300ms var(--ease-1);
+  border-radius: 6px;
+}
+
+
+
+.skill-set-title {
+  text-align: center;
+  align-self: center;
+  width: 80vw;
+  border-bottom: 2px solid var(--main-yellow);
+  font-size: 4rem;
+  color: var(--main-blue);
+}
