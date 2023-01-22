@@ -5,7 +5,7 @@ import { Form, Button } from "react-bootstrap";
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState<{submitted:null | boolean}>({submitted:null});
 
-  const handleSubmit = (e) => {
+  const handleSubmit = () => {
     setTimeout(() => {
       return setSubmitted({submitted:true});
     }, 100);

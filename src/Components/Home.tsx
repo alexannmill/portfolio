@@ -1,12 +1,13 @@
 import "./Styles/Home.css";
-import photo from "./imgs/IMG_0528.JPG";
+import img from "./imgs/IMG_0528.jpg";
+import React from "react";
 
 export default function Home() {
   return (
     <>
       <div className="home">
         <div className="img-container">
-          <img className="home-bg-img" src={photo} alt="me"></img>
+          <img className="home-bg-img" src={img} alt="profile pic"></img>
         </div>
         <div className="slant">
           <h1 className="hi">Hi, my name is </h1>
