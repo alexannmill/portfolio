@@ -60,28 +60,26 @@
 
 @media screen and (max-width: 940px) {
   .slant {
-    height: 40vh;
+    height: 50vw;
     width: 95vw;
   }
 }
 
 @media screen and (max-width: 670px) {
   .slant {
-    height: 65vh;
+    height: 70vw;
     width: 95vw;
   }
   .img-container {
     margin-top: 25vw;
   }
-   .home-bg-img {
+  .home-bg-img {
     width: 40vw;
   }
   .blurb {
     margin-left: 35vw;
   }
-
 }
-
 
 
 @media screen and (min-width: 1200px) {
@@ -96,5 +94,12 @@
   }
   .blurb {
     margin-left: 25vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .slant {
+    height: 120vw;
+    width: 95vw;
   }
 }

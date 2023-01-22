@@ -17,17 +17,28 @@
   border: var(--main-pink) 2px solid;
   width: 15rem;
   margin: 1rem;
-  animation: fade-in 300ms var(--ease-1);
   border-radius: 6px;
+  font-size: clamp(1rem, 2.5vw, 2rem); 
 }
 
-
+.skill:hover{
+  background-color: var(--main-yellow);
+  color: black;
+  animation: var(--animation-shake-x)
+}
 
 .skill-set-title {
   text-align: center;
   align-self: center;
   width: 80vw;
   border-bottom: 2px solid var(--main-yellow);
-  font-size: 4rem;
+  font-size: clamp(1rem, 4vw, 2rem); 
   color: var(--main-blue);
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1020px) {
+  .skill-list{
+    flex-direction: column;
+  }
 }
