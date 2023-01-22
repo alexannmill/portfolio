@@ -1,9 +1,9 @@
-import NavBar from "./Components/NavBar";
-import Home from "./Components/Home";
-import Contact from "./Components/Contact";
-import Projects from "./Components/Projects";
-import BeerBlog from "./Components/BeerBlog";
-import Skills from "./Components/Skills";
+import NavBar from "../dist/src/Components/NavBar";
+import Home from "../dist/src/Components/Home";
+import Contact from "../dist/src/Components/Contact";
+import Projects from "../dist/src/Components/Projects";
+import BeerBlog from "../dist/src/Components/BeerBlog";
+import Skills from "../dist/src/Components/Skills";
 
 export default function App() {
   return (
@@ -22,4 +22,3 @@ export default function App() {
     </div>
   );
 }
-

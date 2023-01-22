@@ -1,3 +1,4 @@
+import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import HungryDev from "./Projects/HungyDev";
 import Interviewer from "./Projects/Interviewer";

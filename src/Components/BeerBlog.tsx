@@ -1,3 +1,4 @@
+import React from "react";
 import "./Styles/Projects.css";
 
 export default function BeerBlog() {

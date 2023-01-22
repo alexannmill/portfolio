@@ -1,14 +1,15 @@
+import React from "react";
 import { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 
 export default function ContactForm() {
-  const [submitted, setSubmitted] = useState(null);
+  const [submitted, setSubmitted] = useState<{submitted:null | boolean}>({submitted:null});
 
   const handleSubmit = (e) => {
     setTimeout(() => {
-      setSubmitted(true);
+      return setSubmitted({submitted:true});
     }, 100);
-  };
+  }
 
   if (submitted) {
     return (
@@ -20,7 +21,7 @@ export default function ContactForm() {
           type="submit"
           onClick={(e) => {
             e.preventDefault();
-            setSubmitted(null);
+            setSubmitted({submitted:null});
           }}
         >
           Forgot something? Send Another!
