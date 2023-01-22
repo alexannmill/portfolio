@@ -3,12 +3,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const NavBar_1 = __importDefault(require("../src/dist/Components/NavBar"));
-const Home_1 = __importDefault(require("../src/dist/Components/Home"));
-const Contact_1 = __importDefault(require("../src/dist/Components/Contact"));
-const Projects_1 = __importDefault(require("../src/dist/Components/Projects"));
-const BeerBlog_1 = __importDefault(require("../src/dist/Components/BeerBlog"));
-const Skills_1 = __importDefault(require("../src/dist/Components/Skills"));
+const NavBar_1 = __importDefault(require("../dist/src/Components/NavBar"));
+const Home_1 = __importDefault(require("../dist/src/Components/Home"));
+const Contact_1 = __importDefault(require("../dist/src/Components/Contact"));
+const Projects_1 = __importDefault(require("../dist/src/Components/Projects"));
+const BeerBlog_1 = __importDefault(require("../dist/src/Components/BeerBlog"));
+const Skills_1 = __importDefault(require("../dist/src/Components/Skills"));
 function App() {
     return (React.createElement("div", { className: "App" },
         React.createElement(NavBar_1.default, null),

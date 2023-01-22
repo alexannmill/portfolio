@@ -1,9 +1,9 @@
-import NavBar from "../dist/src/Components/NavBar";
-import Home from "../dist/src/Components/Home";
-import Contact from "../dist/src/Components/Contact";
-import Projects from "../dist/src/Components/Projects";
-import BeerBlog from "../dist/src/Components/BeerBlog";
-import Skills from "../dist/src/Components/Skills";
+import NavBar from "../src/dist/Components/NavBar";
+import Home from "../src/dist/Components/Home";
+import Contact from "../src/dist/Components/Contact";
+import Projects from "../src/dist/Components/Projects";
+import BeerBlog from "../src/dist/Components/BeerBlog";
+import Skills from "../src/dist/Components/Skills";
 
 export default function App() {
   return (
