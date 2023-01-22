@@ -19,13 +19,16 @@
   width: clamp(10rem, 20vw, 50rem);
 }
 
-
 .form {
   width: clamp(20rem, 40vw, 100rem);
   margin: 2rem;
 }
 
 .form input {
+  font-size: clamp(1rem, 2.5vw, 2rem);
+}
+
+.form textarea {
   font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
