@@ -2,7 +2,7 @@
   font-weight: 800;
   font-size: clamp(1.6rem, 1vw, 7rem);
   width: 100vw;
-  height: 10vh;
+  height: clamp(4rem, 1vw, 7rem);
   opacity: 95%;
   background-color: var(--main-pink);
   color: white;

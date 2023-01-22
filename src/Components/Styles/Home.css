@@ -69,12 +69,15 @@
 }
 
 @media screen and (max-width: 670px) {
+  .home {
+    margin-top: 5vw;
+  }
   .slant {
     height: 70vw;
     width: 95vw;
   }
   .img-container {
-    margin-top: 25vw;
+    margin-top: 20vw;
   }
   .home-bg-img {
     width: 40vw;
