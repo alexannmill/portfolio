@@ -15,7 +15,6 @@ export default function Jungle() {
           href="https://github.com/alexannmill/jungle"
           variant="dark"
           target="_blank"
-          className="github-btn"
         >
           <a href="https://github.com/alexannmill" target="blank">
             <img

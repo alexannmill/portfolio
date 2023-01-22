@@ -15,7 +15,7 @@ export default function Safeguardian() {
         <Button
           href="https://github.com/alexannmill/safeguardian"
           target="_blank"
-          className="github-btn"
+          variant="dark"
         >
           <img
             align="center"

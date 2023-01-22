@@ -18,7 +18,6 @@ export default function HungryDev() {
           href="https://github.com/alexannmill/the.very.hungry.dev"
           variant="dark"
           target="_blank"
-          className="github-btn"
         >
           <img
             align="center"

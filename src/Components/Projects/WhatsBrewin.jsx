@@ -25,8 +25,8 @@ export default function WhatsBrewin() {
         >
           <img
             align="center"
-            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-            alt="Alex Miller GitHub"
+            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
+            alt="Alex Miller Github"
             height="30"
             width="40"
           />
