@@ -31,3 +31,7 @@
   font-size: 4rem;
   color: var(--main-yellow);
 }
+
+.beerblogblurb {
+  font-size: clamp(1rem, 1.2vw, 2rem); 
+}

@@ -57,21 +57,25 @@ export default function Home() {
         <strong>SKILL SET</strong>
       </h1>
       <div className="skill-list">
-        <div className="list">
-          <h2>// Font-end : </h2>
-          {renderFrontend}
+        <div className="set">
+          <div className="list">
+            <h2>// Font-end : </h2>
+            {renderFrontend}
+          </div>
+          <div className="list">
+            <h2>// Back-end :</h2>
+            {renderBackend}
+          </div>
         </div>
-        <div className="list">
-          <h2>// Back-end :</h2>
-          {renderBackend}
-        </div>
-        <div className="list">
-          <h2>// Web Design :</h2>
-          {renderWebDesign}
-        </div>
-        <div className="list">
-          <h2>// Strategies : </h2>
-          {renderStrategies}
+        <div className="set">
+          <div className="list">
+            <h2>// Web Design :</h2>
+            {renderWebDesign}
+          </div>
+          <div className="list">
+            <h2>// Strategies : </h2>
+            {renderStrategies}
+          </div>
         </div>
       </div>
     </div>

@@ -6,11 +6,16 @@
   margin-top: 5rem;
 }
 
+.set{
+  display: flex;
+  justify-content: space-around;
+ 
+}
 
 .skill-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .skill{
@@ -18,7 +23,7 @@
   width: 15rem;
   margin: 1rem;
   border-radius: 6px;
-  font-size: clamp(1rem, 2.5vw, 2rem); 
+  font-size: clamp(1rem, 4vw, 2rem); 
 }
 
 .skill:hover{
@@ -32,7 +37,7 @@
   align-self: center;
   width: 80vw;
   border-bottom: 2px solid var(--main-yellow);
-  font-size: clamp(1rem, 4vw, 2rem); 
+  font-size: clamp(1.5rem, 4vw, 2rem); 
   color: var(--main-blue);
   margin-bottom: 2rem;
 }
@@ -40,5 +45,12 @@
 @media screen and (max-width: 1020px) {
   .skill-list{
     flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .set{
+    flex-direction: column;
+    align-items: center;
   }
 }
