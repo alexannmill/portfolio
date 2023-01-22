@@ -18,7 +18,14 @@ export default function Home() {
     "jQuery",
   ];
 
-  const webDesign = ["Figma", "Canva", "Tailwaind", "Bootstrap", "ERDs"];
+  const webDesign = [
+    "Figma",
+    "Canva",
+    "Tailwaind",
+    "Bootstrap",
+    "ERDs",
+    "Responsive",
+  ];
   const strategies = ["Agile", "Git", "Testing", "Documentation"];
 
   const renderFrontend = frontend.map((skill) => {

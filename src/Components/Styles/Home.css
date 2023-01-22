@@ -1,7 +1,7 @@
 
 .home{
   flex-direction: column;
-  margin: 1rem;
+  margin: 10rem 10vw 1rem 10vw;
 }
 
 .hi {
@@ -28,8 +28,8 @@
   background-color: var(--main-yellow);
   border-radius: var(--radius-blob-2);
   height: 40vw;
-  width: 95vw;
   z-index: -1;
+  margin: 0vw 5vw 5vw 0vw;
 }
 
 .home-bg-img {
@@ -54,14 +54,18 @@
   color: var(--main-blue);
   border-radius: 15px;
   position: absolute;
-  margin-left: 32vw;
-  margin-right: 5vw;
+  margin-left: 30vw;
+  margin-right: 20vw;
 } 
 
 @media screen and (max-width: 940px) {
   .slant {
     height: 50vw;
     width: 95vw;
+  }
+  .blurb {
+    margin-left: 35vw;
+    margin-right: 2vw;
   }
 }
 
@@ -78,6 +82,7 @@
   }
   .blurb {
     margin-left: 35vw;
+    margin-right: 2vw;
   }
 }
 
@@ -100,12 +105,27 @@
 @media screen and (max-width: 450px) {
   .slant {
     height: 120vw;
-    width: 95vw;
+  }
+  .blurb {
+    margin-left: 35vw;
+    margin-right: 2vw;
+  }
+  .home-bg-img {
+    width: 45vw;
   }
 }
+
 @media screen and (max-width: 340px) {
   .slant {
     height: 200vw;
     width: 95vw;
+  }
+  .home-bg-img {
+    width: 45vw;
+    margin-top: 35vw;
+  }
+  .blurb {
+    margin-left: 45vw;
+    margin-right: 2vw;
   }
 }
