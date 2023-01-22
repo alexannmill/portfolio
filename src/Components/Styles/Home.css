@@ -1,7 +1,7 @@
 
 .home{
   flex-direction: column;
-  margin: 10rem 10vw 1rem 10vw;
+  margin: 10rem 7vw 1rem 7vw;
 }
 
 .hi {
@@ -29,7 +29,6 @@
   border-radius: var(--radius-blob-2);
   height: 40vw;
   z-index: -1;
-  margin: 0vw 5vw 5vw 0vw;
 }
 
 .home-bg-img {
