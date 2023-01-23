@@ -1,1 +1,1 @@
-Personal Protfolio Site use Typescript and react. No templating some features using Open Props and Bootstrap packages
+Personal Protfolio Site use Typescript and React. No templating -  some features are using Open Props and Bootstrap packages for styling.
