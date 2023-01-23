@@ -1,12 +1,15 @@
 const path = require("path");
+
 module.exports = {
-  entry: "./src/index.tsx",
+  entry: "./build/src/index.jsx",
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
-        use: "ts-loader",
+        test: /\.jsx?$/,
         exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+        },
       },
     ],
   },
@@ -15,7 +18,7 @@ module.exports = {
   },
   output: {
     filename: "bundle.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "build"),
   },
   mode: "development",
 };
