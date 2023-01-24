@@ -73,7 +73,7 @@
     margin-top: 5vw;
   }
   .slant {
-    height: 70vw;
+    height: 75vw;
     width: 95vw;
   }
   .img-container {
@@ -102,15 +102,17 @@
   .blurb {
     margin-left: 25vw;
   }
+  .home {
+      margin: 10rem 15vw 1rem 15vw;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .slant {
-    height: 120vw;
+    height: 142vw;
   }
   .blurb {
-    margin-left: 35vw;
-    margin-right: 2vw;
+    margin: 2rem 2vw 0rem 40vw;
   }
   .home-bg-img {
     width: 45vw;
@@ -119,15 +121,14 @@
 
 @media screen and (max-width: 340px) {
   .slant {
-    height: 200vw;
+    height: 225vw;
     width: 95vw;
   }
   .home-bg-img {
-    width: 45vw;
-    margin-top: 35vw;
+    width: 50vw;
+    margin-top: 40vw;
   }
   .blurb {
-    margin-left: 45vw;
-    margin-right: 2vw;
+    margin: 2rem 2vw 0rem 45vw;
   }
 }

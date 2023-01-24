@@ -18,7 +18,7 @@ export default function NavBar() {
             <Nav.Link href="#projects">// Projects</Nav.Link>
             <Nav.Link href="#contact">// Contact</Nav.Link>
             <Nav.Link href="#blog">// BeerBlog</Nav.Link>
-            <Nav.Link href="github.com/alexannmill">// Github</Nav.Link>
+            <Nav.Link href="https://github.com/alexannmill">// Github</Nav.Link>
             <Nav.Link
               href="https://resume.creddle.io/resume/idi71kas4cy"
               target="_blank"
