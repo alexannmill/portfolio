@@ -2,14 +2,11 @@ import React from "react";
 import { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 
-export default function ContactForm() {
-  const [submitted, setSubmitted] = useState<{submitted:null | boolean}>({submitted:null});
 
-  const handleSubmit = () => {
-    setTimeout(() => {
-      return setSubmitted({submitted:true});
-    }, 100);
-  }
+export default function ContactForm() {
+
+
+  const [submitted, setSubmitted] = useState<boolean>(false);
 
   if (submitted) {
     return (
@@ -21,7 +18,7 @@ export default function ContactForm() {
           type="submit"
           onClick={(e) => {
             e.preventDefault();
-            setSubmitted({submitted:null});
+            setSubmitted(false)
           }}
         >
           Forgot something? Send Another!
@@ -34,7 +31,7 @@ export default function ContactForm() {
     <div className="form">
       <Form
         action="https://public.herotofu.com/v1/ca7790a0-7e6a-11ed-b38f-a1ed22f366b1"
-        onSubmit={handleSubmit}
+        onSubmit={() => setSubmitted(true)}
         method="POST"
         target="_blank"
       >
@@ -72,7 +69,8 @@ export default function ContactForm() {
           />
         </Form.Group>
         <div className="submitbtn">
-          <Button className="contact-btn" variant="primary" type="submit">
+          <Button 
+          className="contact-btn" variant="primary" type="submit">
             Send Message
           </Button>
         </div>

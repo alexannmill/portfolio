@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
 import NavBar from "./Components/NavBar";
 import Home from "./Components/Home";
 import Contact from "./Components/Contact";
