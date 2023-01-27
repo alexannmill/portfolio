@@ -8,6 +8,7 @@ import BeerBlog from "./Components/BeerBlog";
 import Skills from "./Components/Skills";
 
 export default function App() {
+
   return (
     <div className="App">
       <NavBar />
