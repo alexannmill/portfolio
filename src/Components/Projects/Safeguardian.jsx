@@ -11,6 +11,14 @@ export default function Safeguardian() {
           <strong>Work-in-progress:</strong> A map application for unhoused
           people to find resources. Hoping one day mall-screen kiosk are up
           around the city giving information to those in need.
+          <br />
+          <a
+            href="https://alexannmill.github.io/safeguardian/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Demo it here!
+          </a>
         </Card.Text>
         <Button
           href="https://github.com/alexannmill/safeguardian"

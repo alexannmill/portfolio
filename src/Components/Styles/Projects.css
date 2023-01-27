@@ -11,8 +11,8 @@
  border-radius: 20px;
 }
 
-.project-title {
-  font-size: clamp(1rem, 2.5vw, 2rem); 
+.project.tile h5 h5{
+  font-size: clamp(1rem, 2.5vw, 5rem); 
 }
 
 
