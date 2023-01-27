@@ -1,12 +1,12 @@
 import React from "react";
 import "./Styles/Projects.css";
-import { motion } from "framer-motion"
 
 export default function BeerBlog() {
+
+  
   return (
-    <motion.div 
+    <div 
       className="beerblog"
-      
       >
       <h1 className="beerblogtitle">
         <strong> BEER BLOG </strong>
@@ -27,6 +27,6 @@ export default function BeerBlog() {
         for beginners along with tips and how-tos for growing up our own
         cultures.
       </p>
-    </motion.div>
+    </div>
   );
 }
