@@ -1,10 +1,13 @@
 import React from "react";
 import "./Styles/Projects.css";
+import {motion} from "framer-motion"
 
 export default function BeerBlog() {
   return (
-    <div className="beerblog">
-      {/* //add anchor for nav */}
+    <motion.div 
+      className="beerblog"
+      
+      >
       <h1 className="beerblogtitle">
         <strong> BEER BLOG </strong>
       </h1>
@@ -24,6 +27,6 @@ export default function BeerBlog() {
         for beginners along with tips and how-tos for growing up our own
         cultures.
       </p>
-    </div>
+    </motion.div>
   );
 }
