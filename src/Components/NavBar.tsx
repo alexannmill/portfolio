@@ -4,14 +4,18 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./Styles/NavBar.css";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTerminal } from '@fortawesome/free-solid-svg-icons'
 
 export default function NavBar() {
   return (
     <Navbar className="navbar" fixed="top" expand="lg">
       <Container>
         <Navbar.Brand href="#home">
-          <h1 className="logo">@|ex Mi||er</h1>
+          <h1 className="logo">
+            <FontAwesomeIcon icon={faTerminal} />
+            <strong>@|ex Mi||er</strong>
+          </h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
