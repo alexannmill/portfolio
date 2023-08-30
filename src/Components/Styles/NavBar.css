@@ -1,8 +1,8 @@
 .navbar {
   font-weight: 800;
-  font-size: clamp(1.6rem, 1vw, 7rem);
+  font-size: 1rem;
   width: 100vw;
-  height: clamp(4rem, 1vw, 7rem);
+  height: 4rem;
   opacity: 95%;
   background-color: var(--main-pink);
   color: white;
@@ -10,12 +10,20 @@
 }
 
 .logo {
-  font-size: clamp(2rem, 1vw, 7rem);
+  font-size: 2rem;
 }
 
+.outlet-container {
+  margin-top: 4rem;
+  height: 70vh;
+  text-align: -webkit-center;
+}
+
+
 #basic-navbar-nav{ 
- background-color: var(--main-pink);
- opacity: 95%;
- border-radius: 2px;
+  width: 40vw;
+  background-color: var(--main-pink);
+  opacity: 98%;
+  border-radius: 2px;
 
 }

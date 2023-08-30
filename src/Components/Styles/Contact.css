@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: row;
   margin: 3rem 10vw 10vw 3rem;
+
   align-items: center;
   justify-content: space-evenly;
   font-size: clamp(1rem, 2.5vw, 2rem);
@@ -37,20 +38,34 @@
   margin: 2rem;
 }
 
+.footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  position: fixed;
+}
 .socials {
-  margin: 2rem;
-  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  height: 15px;
+  width: clamp(10rem, 25rem, 25rem);
+  color: white;
   text-align: center;
+  margin: 40px;
   background-color: var(--main-yellow);
-  padding: 5rem;
-  border: 2px solid var(--main-pink);
+  /* border: 2px solid var(--main-pink); */
   border-radius: var(--radius-blob-5);
-  font-size: clamp(1rem, 2.5vw, 5rem);
+  font-size: clamp(1rem, 2vw, 3rem);
 }
 
 .socials a {
-  /* font-size: clamp(1rem, 5vw, 10rem); */
   margin: 20px;
+}
+.socials img {
+  font-size: clamp(1rem, 2vw, 3rem);
 }
 
 

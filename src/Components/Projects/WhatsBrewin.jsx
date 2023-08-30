@@ -13,7 +13,11 @@ export default function WhatsBrewin() {
           them a space to be easily discovered. This is our final project for
           Web Development Program at Lighthouse Labs made possible with the help
           of -
-          <a href="https://www.openbrewerydb.org/" target="_blank">
+          <a
+            href="https://www.openbrewerydb.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Open Brewery DB
           </a>
           .
