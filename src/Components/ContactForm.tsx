@@ -42,7 +42,7 @@ export default function ContactForm() {
             type="name"
             name="name"
             placeholder="Enter Your Name"
-            // required
+            required
           />
         </Form.Group>
 
@@ -53,7 +53,7 @@ export default function ContactForm() {
             type="email"
             name="email"
             placeholder="Enter Your Email"
-            // required
+            required
           />
         </Form.Group>
 
@@ -65,7 +65,7 @@ export default function ContactForm() {
             placeholder="Enter Your Message"
             rows={3}
             name="message"
-            // required
+            required
           />
         </Form.Group>
         <div className="submitbtn">
