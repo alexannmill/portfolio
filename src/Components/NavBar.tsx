@@ -28,17 +28,16 @@ export default function NavBar() {
 							<Nav.Link href='/contact'>// Contact</Nav.Link>
 							{/* <Nav.Link href='/beerblog'>// BeerBlog</Nav.Link> */}
 							<Nav.Link
-								href='https://resume.creddle.io/resume/idi71kas4cy'
+								href='https://docs.google.com/document/d/e/2PACX-1vRcPQM5MEqFcaweZ-DP_fYSzJ5wnkDl-6fEeZ_799kjUNDDl5vtxjbKhxrKKBSn8Qh_og_QoCu36QBs/pub'
 								target='_blank'
 							>
-								{' '}
 								// Resume
 							</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
 			</Navbar>
-			<Outlet />
+			{/* <Outlet /> */}
 		</div>
 	);
 }
