@@ -9,12 +9,15 @@ export default function Home() {
 				<img className='home-bg-img' src={img} alt='profile pic'></img>
 			</div>
 			<div className='slant'>
+				{/* <br /> */}
 				<h1 className='hi'>Hi, my name is </h1>
-				<h1 className='name'> Alex Miller.</h1>
+				<h1 className='hi'> Alex Miller.</h1>
+				<h2>Full Stack Developer</h2>
+				<br />
 				<p className='blurb'>
 					Brewer turned Software Developer. I enjoy creating applications that
 					have a seamless user experience; maintaining continuity with themes,
-					responses, and expectations.{' '}
+					responses, and expectations.
 				</p>
 			</div>
 		</div>

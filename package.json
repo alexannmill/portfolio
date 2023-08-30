@@ -2,7 +2,7 @@
   "name": "site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexannmill.github.io/portfolio",
+  "homepage": "https://alexannmill.github.io/portfolio/home",
   "dependencies": {
     "@formkit/auto-animate": "^1.0.0-beta.6",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",

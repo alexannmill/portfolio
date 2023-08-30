@@ -1,4 +1,8 @@
-import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+import {
+	createBrowserRouter,
+	createHashRouter,
+	RouterProvider,
+} from 'react-router-dom';
 import NavBar from './Components/NavBar';
 import Home from './Components/Home';
 import Contact from './Components/Contact';
@@ -9,19 +13,43 @@ import Footer from './Components/Footer';
 import './Components/Styles/NavBar.css';
 
 export default function App() {
+	const router = createHashRouter([
+		// {
+		// path: '/',
+		// element: <NavBar />,
+		// children: [
+		{
+			path: '/',
+			element: <Home />,
+		},
+		{
+			path: 'home',
+			element: <Home />,
+		},
+		{
+			path: 'skills',
+			element: <Skills />,
+		},
+		{
+			path: 'projects',
+			element: <Projects />,
+		},
+		{
+			path: 'contact',
+			element: <Contact />,
+		},
+		{
+			path: 'beeerblog',
+			element: <BeerBlog />,
+		},
+		// ],
+		// },
+	]);
 	return (
 		<div className='App'>
 			<NavBar />
 			<div className='outlet-container'>
-				<Router>
-					<Routes>
-						<Route path='/home' element={<Home />} />
-						<Route path='/skills' element={<Skills />} />
-						<Route path='/projects' element={<Projects />} />
-						<Route path='/beerblog' element={<BeerBlog />} />
-						<Route path='/contact' element={<Contact />} />
-					</Routes>
-				</Router>
+				<RouterProvider router={router} />
 			</div>
 			<Footer />
 		</div>

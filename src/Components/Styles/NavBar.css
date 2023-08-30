@@ -14,8 +14,9 @@
 }
 
 .outlet-container {
-height: 70vh;
-text-align: -webkit-center;
+  margin-top: 4rem;
+  height: 70vh;
+  text-align: -webkit-center;
 }
 
 
