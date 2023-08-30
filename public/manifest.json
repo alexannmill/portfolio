@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Alex Miller Portfolio",
+  "name": "Alex Miller Portfolio",
   "icons": [
     {
-      "src": "./icons8-code-file-64 (1).png",
+      "src": "./code-solid.svg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
