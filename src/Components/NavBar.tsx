@@ -5,8 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./Styles/NavBar.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTerminal } from '@fortawesome/free-solid-svg-icons'
-import { Outlet } from 'react-router';
+import { faTerminal } from '@fortawesome/free-solid-svg-icons';
 
 export default function NavBar() {
 	return (
@@ -37,7 +36,6 @@ export default function NavBar() {
 					</Navbar.Collapse>
 				</Container>
 			</Navbar>
-			{/* <Outlet /> */}
 		</div>
 	);
 }
