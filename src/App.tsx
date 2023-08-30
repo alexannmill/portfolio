@@ -13,37 +13,33 @@ import Footer from './Components/Footer';
 import './Components/Styles/NavBar.css';
 
 export default function App() {
-	const router = createHashRouter([
-		// {
-		// path: '/',
-		// element: <NavBar />,
-		// children: [
+	const router = createBrowserRouter([
 		{
 			path: '/',
-			element: <Home />,
+			element: <NavBar />,
+			children: [
+				{
+					path: '',
+					element: <Home />,
+				},
+				{
+					path: 'skills',
+					element: <Skills />,
+				},
+				{
+					path: 'projects',
+					element: <Projects />,
+				},
+				{
+					path: 'contact',
+					element: <Contact />,
+				},
+				// {
+				// 	path: 'beeerblog',
+				// 	element: <BeerBlog />,
+				// },
+			],
 		},
-		{
-			path: 'home',
-			element: <Home />,
-		},
-		{
-			path: 'skills',
-			element: <Skills />,
-		},
-		{
-			path: 'projects',
-			element: <Projects />,
-		},
-		{
-			path: 'contact',
-			element: <Contact />,
-		},
-		{
-			path: 'beeerblog',
-			element: <BeerBlog />,
-		},
-		// ],
-		// },
 	]);
 	return (
 		<div className='App'>
