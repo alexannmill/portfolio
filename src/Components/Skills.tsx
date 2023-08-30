@@ -23,7 +23,7 @@ export default function Home() {
   const webDesign = [
     "Figma",
     "Canva",
-    "Tailwaind",
+    "Tailwind",
     "Bootstrap",
     "ERDs",
     "Responsive",
@@ -68,7 +68,7 @@ export default function Home() {
       <div className="skill-list">
         <div className="set">
           <div className="list">
-            <h2>// Font-end : </h2>
+            <h2>// Front-end : </h2>
             {renderFrontend}
           </div>
           <div className="list">
