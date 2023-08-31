@@ -43,9 +43,9 @@ export default function App() {
 			<NavBar />
 			<div className='outlet-container'>
 				<AnimatePresence mode='wait'>
-					<Router>
+					<Router basename={'https://alexannmill.github.io/portfolio/'}>
 						<Routes>
-							<Route path='' element={<Home />} />
+							<Route path='/' element={<Home />} />
 							<Route path='/skills' element={<Skills />} />
 							<Route path='/projects' element={<Projects />} />
 							<Route path='/beerblog' element={<BeerBlog />} />
