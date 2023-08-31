@@ -11,10 +11,10 @@ import { Link } from 'react-router-dom';
 export default function NavBar() {
 	return (
 		<div>
-			<Link to='/portfolio/'>// About</Link>
-			<Link to='/portfolio/skills'>// Skills </Link>
-			<Link to='/portfolio/projects'>// Projects</Link>
-			<Link to='/portfolio/contact'>// Contact</Link>
+			<Link to='/'>// About</Link>
+			<Link to='/skills'>// Skills </Link>
+			<Link to='/projects'>// Projects</Link>
+			<Link to='/contact'>// Contact</Link>
 			{/* <Link to='/beerblog'>// BeerBlog</Link> */}
 			<Link
 				to='https://docs.google.com/document/d/e/2PACX-1vRcPQM5MEqFcaweZ-DP_fYSzJ5wnkDl-6fEeZ_799kjUNDDl5vtxjbKhxrKKBSn8Qh_og_QoCu36QBs/pub'
