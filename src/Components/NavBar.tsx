@@ -25,23 +25,24 @@ export default function NavBar() {
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav className='me-auto'>
 							<Link to='/' className='nav-link'>
-								<Nav.Link>// About</Nav.Link>
+								<div>// About</div>
 							</Link>
 							<Link to='/skills' className='nav-link'>
-								<Nav.Link>// Skills </Nav.Link>
+								<div>// Skills </div>
 							</Link>
 							<Link to='/projects' className='nav-link'>
-								<Nav.Link>// Projects</Nav.Link>
+								<div>// Projects</div>
 							</Link>
 							<Link to='/contact' className='nav-link'>
-								<Nav.Link>// Contact</Nav.Link>
+								<div>// Contact</div>
 							</Link>
-							<Nav.Link
-								href='https://docs.google.com/document/d/e/2PACX-1vRcPQM5MEqFcaweZ-DP_fYSzJ5wnkDl-6fEeZ_799kjUNDDl5vtxjbKhxrKKBSn8Qh_og_QoCu36QBs/pub'
+							<Link
+								to='https://docs.google.com/document/d/e/2PACX-1vRcPQM5MEqFcaweZ-DP_fYSzJ5wnkDl-6fEeZ_799kjUNDDl5vtxjbKhxrKKBSn8Qh_og_QoCu36QBs/pub'
 								target='_blank'
+								className='nav-link'
 							>
-								// Resume
-							</Nav.Link>
+								<div>// Resume</div>
+							</Link>
 							{/* <Nav.Link href='/beerblog'>// BeerBlog</Nav.Link> */}
 						</Nav>
 					</Navbar.Collapse>
