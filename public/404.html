@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <script>
+      var segmentCount = location.pathname.split('/').length - 1;
+      var basePath = '';
+      for (var i = 0; i < segmentCount; i++) {
+        basePath += '../';
+      }
+      window.location.replace(basePath + 'index.html');
+    </script>
+  </head>
+
+  <body>
+    <p>Page Not Found</p>
+  </body>
+
+</html>
