@@ -18,8 +18,14 @@
   height: 70vh;
   text-align: -webkit-center;
 }
-
-
+.me-auto {
+  align-items: center;
+}
+.nav-link {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
 #basic-navbar-nav{ 
   width: 40vw;
   background-color: var(--main-pink);

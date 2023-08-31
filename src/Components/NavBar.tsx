@@ -11,45 +11,42 @@ import { Link } from 'react-router-dom';
 export default function NavBar() {
 	return (
 		<div>
-			<Link to='/'>// About</Link>
-			<Link to='/skills'>// Skills </Link>
-			<Link to='/projects'>// Projects</Link>
-			<Link to='/contact'>// Contact</Link>
-			{/* <Link to='/beerblog'>// BeerBlog</Link> */}
-			<Link
-				to='https://docs.google.com/document/d/e/2PACX-1vRcPQM5MEqFcaweZ-DP_fYSzJ5wnkDl-6fEeZ_799kjUNDDl5vtxjbKhxrKKBSn8Qh_og_QoCu36QBs/pub'
-				target='_blank'
-			>
-				// Resume
-			</Link>
-			{/* <Navbar className='navbar' fixed='top' expand='lg'>
+			<Navbar className='navbar' fixed='top' expand='lg'>
 				<Container>
-					<Link to='/portfolio/'>
-					<Navbar.Brand >
-						<h1 className='logo'>
-							<FontAwesomeIcon icon={faTerminal} />
-							<strong>@|ex Mi||er</strong>
-						</h1>
-					</Navbar.Brand>
+					<Link to='/' className='nav-link'>
+						<Navbar.Brand href='/portfolio/'>
+							<h1 className='logo'>
+								<FontAwesomeIcon icon={faTerminal} />
+								<strong>@|ex Mi||er</strong>
+							</h1>
+						</Navbar.Brand>
 					</Link>
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav className='me-auto'>
-							<Link to='/portfolio/'>// About</Link>
-							<Link to='/portfolio/skills'>// Skills </Link>
-							<Link to='/portfolio/projects'>// Projects</Link>
-							<Link to='/portfolio/contact'>// Contact</Link>
-							<Link to='/beerblog'>// BeerBlog</Link>
-							<Link
-								to='https://docs.google.com/document/d/e/2PACX-1vRcPQM5MEqFcaweZ-DP_fYSzJ5wnkDl-6fEeZ_799kjUNDDl5vtxjbKhxrKKBSn8Qh_og_QoCu36QBs/pub'
+							<Link to='/' className='nav-link'>
+								<Nav.Link>// About</Nav.Link>
+							</Link>
+							<Link to='/skills' className='nav-link'>
+								<Nav.Link>// Skills </Nav.Link>
+							</Link>
+							<Link to='/projects' className='nav-link'>
+								<Nav.Link>// Projects</Nav.Link>
+							</Link>
+							<Link to='/contact' className='nav-link'>
+								<Nav.Link>// Contact</Nav.Link>
+							</Link>
+							<Nav.Link
+								href='https://docs.google.com/document/d/e/2PACX-1vRcPQM5MEqFcaweZ-DP_fYSzJ5wnkDl-6fEeZ_799kjUNDDl5vtxjbKhxrKKBSn8Qh_og_QoCu36QBs/pub'
 								target='_blank'
 							>
 								// Resume
-							</Link>
+							</Nav.Link>
+							{/* <Nav.Link href='/beerblog'>// BeerBlog</Nav.Link> */}
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
-			</Navbar> */}
+			</Navbar>
 		</div>
 	);
 }
