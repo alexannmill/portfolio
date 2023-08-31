@@ -1,4 +1,4 @@
-import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 import NavBar from './Components/NavBar';
 import Home from './Components/Home';
 import Contact from './Components/Contact';
@@ -43,15 +43,13 @@ export default function App() {
 			<NavBar />
 			<div className='outlet-container'>
 				<AnimatePresence mode='wait'>
-					<Router>
 						<Routes>
-							<Route path='/' element={<Home />} />
+							<Route path='' element={<Home />} />
 							<Route path='/skills' element={<Skills />} />
 							<Route path='/projects' element={<Projects />} />
 							<Route path='/beerblog' element={<BeerBlog />} />
 							<Route path='/contact' element={<Contact />} />
 						</Routes>
-					</Router>
 				</AnimatePresence>
 			</div>
 			<Footer />
