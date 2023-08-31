@@ -11,15 +11,26 @@ import { Link } from 'react-router-dom';
 export default function NavBar() {
 	return (
 		<div>
-			<Navbar className='navbar' fixed='top' expand='lg'>
+			<Link to='/portfolio/'>// About</Link>
+			<Link to='/portfolio/skills'>// Skills </Link>
+			<Link to='/portfolio/projects'>// Projects</Link>
+			<Link to='/portfolio/contact'>// Contact</Link>
+			{/* <Link to='/beerblog'>// BeerBlog</Link> */}
+			<Link
+				to='https://docs.google.com/document/d/e/2PACX-1vRcPQM5MEqFcaweZ-DP_fYSzJ5wnkDl-6fEeZ_799kjUNDDl5vtxjbKhxrKKBSn8Qh_og_QoCu36QBs/pub'
+				target='_blank'
+			>
+				// Resume
+			</Link>
+			{/* <Navbar className='navbar' fixed='top' expand='lg'>
 				<Container>
 					<Link to='/portfolio/'>
-						<Navbar.Brand>
-							<h1 className='logo'>
-								<FontAwesomeIcon icon={faTerminal} />
-								<strong>@|ex Mi||er</strong>
-							</h1>
-						</Navbar.Brand>
+					<Navbar.Brand >
+						<h1 className='logo'>
+							<FontAwesomeIcon icon={faTerminal} />
+							<strong>@|ex Mi||er</strong>
+						</h1>
+					</Navbar.Brand>
 					</Link>
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />
 					<Navbar.Collapse id='basic-navbar-nav'>
@@ -28,7 +39,7 @@ export default function NavBar() {
 							<Link to='/portfolio/skills'>// Skills </Link>
 							<Link to='/portfolio/projects'>// Projects</Link>
 							<Link to='/portfolio/contact'>// Contact</Link>
-							{/* <Link to='/beerblog'>// BeerBlog</Link> */}
+							<Link to='/beerblog'>// BeerBlog</Link>
 							<Link
 								to='https://docs.google.com/document/d/e/2PACX-1vRcPQM5MEqFcaweZ-DP_fYSzJ5wnkDl-6fEeZ_799kjUNDDl5vtxjbKhxrKKBSn8Qh_og_QoCu36QBs/pub'
 								target='_blank'
@@ -38,7 +49,7 @@ export default function NavBar() {
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
-			</Navbar>
+			</Navbar> */}
 		</div>
 	);
 }
