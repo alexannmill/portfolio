@@ -12,7 +12,7 @@ export default function NavBar() {
 		<div>
 			<Navbar className='navbar' fixed='top' expand='lg'>
 				<Container>
-					<Navbar.Brand href='/home'>
+					<Navbar.Brand href='/portfolio/'>
 						<h1 className='logo'>
 							<FontAwesomeIcon icon={faTerminal} />
 							<strong>@|ex Mi||er</strong>
@@ -21,10 +21,10 @@ export default function NavBar() {
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav className='me-auto'>
-							<Nav.Link href='/'>// About</Nav.Link>
-							<Nav.Link href='/skills'>// Skills </Nav.Link>
-							<Nav.Link href='/projects'>// Projects</Nav.Link>
-							<Nav.Link href='/contact'>// Contact</Nav.Link>
+							<Nav.Link href='/portfolio/'>// About</Nav.Link>
+							<Nav.Link href='/portfolio/skills'>// Skills </Nav.Link>
+							<Nav.Link href='/portfolio/projects'>// Projects</Nav.Link>
+							<Nav.Link href='/portfolio/contact'>// Contact</Nav.Link>
 							{/* <Nav.Link href='/beerblog'>// BeerBlog</Nav.Link> */}
 							<Nav.Link
 								href='https://docs.google.com/document/d/e/2PACX-1vRcPQM5MEqFcaweZ-DP_fYSzJ5wnkDl-6fEeZ_799kjUNDDl5vtxjbKhxrKKBSn8Qh_og_QoCu36QBs/pub'
