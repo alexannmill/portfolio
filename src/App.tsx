@@ -43,15 +43,15 @@ export default function App() {
 			<NavBar />
 			<div className='outlet-container'>
 				<AnimatePresence mode='wait'>
-					<Router>
-						<Routes>
-							<Route path='' element={<Home />} />
-							<Route path='/skills' element={<Skills />} />
-							<Route path='/projects' element={<Projects />} />
-							<Route path='/beerblog' element={<BeerBlog />} />
-							<Route path='/contact' element={<Contact />} />
-						</Routes>
-					</Router>
+					{/* <Router> */}
+					<Routes>
+						<Route path='' element={<Home />} />
+						<Route path='/skills' element={<Skills />} />
+						<Route path='/projects' element={<Projects />} />
+						<Route path='/beerblog' element={<BeerBlog />} />
+						<Route path='/contact' element={<Contact />} />
+					</Routes>
+					{/* </Router> */}
 				</AnimatePresence>
 			</div>
 			<Footer />
