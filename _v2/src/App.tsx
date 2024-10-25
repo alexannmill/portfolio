@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { ReactElement } from 'react';
+import { Route, Routes, HashRouter as Router } from 'react-router-dom';
+import './Components/Styles/NavBar.css';
+import { AnimatePresence } from 'framer-motion';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+interface RouteConfig {
+	path: string;
+	element: ReactElement;
 }
+
+const routes: RouteConfig[] = [
+	{ path: '/', element: <div>Home Page</div> },
+	{ path: '/about', element: <div>About Page</div> },
+];
+
+const App: React.FC = () => {
+	return (
+		<div className='App'>
+			{/* <NavBar /> */}
+			<div className='outlet-container'>
+				<AnimatePresence mode='wait'>
+					<Router>
+						<Routes>
+							{routes.map((route, index) => (
+								<Route key={index} path={route.path} element={route.element} />
+							))}
+						</Routes>
+					</Router>
+				</AnimatePresence>
+			</div>
+			{/* <Footer /> */}
+		</div>
+	);
+};
 
 export default App;
