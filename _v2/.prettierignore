@@ -1,0 +1,8 @@
+node_modules
+coverage
+postman
+docs
+.serverless
+.husky
+.dist
+

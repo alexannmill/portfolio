@@ -1,6 +1,5 @@
 import React, { ReactElement } from 'react';
 import { Route, Routes, HashRouter as Router } from 'react-router-dom';
-import './Components/Styles/NavBar.css';
 import { AnimatePresence } from 'framer-motion';
 
 interface RouteConfig {
